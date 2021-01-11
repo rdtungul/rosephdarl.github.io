@@ -1,0 +1,114 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat';
+  background: #ffdecf;
+  background: linear-gradient(122deg, rgba(255, 222, 207, 0.496236) 0%, rgba(255, 222, 207, 0.496236) 100%);
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+h1, h2, h3, h4, h5, h6, .hero-title {
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1286px) {
+  .container-fluid {
+    text-align: center;
+  }
+}
+
+nav {
+  padding: 0 !important;
+}
+
+nav .nav-logo {
+  width: 35px;
+  height: 35px;
+}
+
+nav .nav-title {
+  font-family: 'MuseoModerno', 'Sans Serif';
+  font-weight: bolder;
+}
+
+nav .nav-item {
+  margin-left: 15px;
+}
+
+li {
+  display: table-cell;
+  position: relative;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.link {
+  position: relative;
+}
+
+.link:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #f4d4a8;
+  -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.hero-title {
+  font-size: 3.8rem;
+  line-height: 4.6rem;
+}
+
+.hero-content {
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+}
+
+.hero-link-btn {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-link-btn:hover {
+  color: #eee;
+  text-decoration: none;
+}
+
+footer {
+  font-size: 1rem;
+  text-align: center;
+  background-color: #f0ece3;
+  color: #3f3f44;
+}
+
+footer .footer-icon {
+  margin: 2% 1% 1%;
+  color: #3f3f44;
+  text-decoration: none;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.footer-icon:hover {
+  color: #000 !important;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,31 @@
+* {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Montserrat';
+    background: rgb(255,222,207);
+    background: linear-gradient(122deg, rgba(255,222,207,0.4962359943977591) 0%, rgba(255,222,207,0.4962359943977591) 100%);
+}
+
+.container-fluid {
+    padding: 3% 10%;
+}
+
+h1, h2, h3, h4, h5, h6, .hero-title {
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+
+
+
+@media only screen and (max-width: 1286px) {
+    .container-fluid{
+        text-align: center;
+    }
+
+}
+
+
+// import ouline scss files
+@import 'nav', 'hero', 'main', 'footer';
